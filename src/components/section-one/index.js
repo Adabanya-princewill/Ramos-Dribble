@@ -79,7 +79,7 @@ const SectionOne = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ type: 'spring', stiffness: 260, damping: 20, delay: 0.5 }}
         >
-          <img className='image--class' src={laptopImage} alt='image' />
+          <img className='image--class' src={laptopImage} alt='laptop' />
           <FaPlay color="#fff" size='20px' className='play--icon' />
         </motion.div>
       </motion.div>

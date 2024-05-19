@@ -10,7 +10,7 @@ const wordAnimation = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: i * 0.3, 
+      delay: i * 0.3,
     },
   }),
 };
@@ -33,15 +33,13 @@ const ipadImageAnimation = {
   hidden: { opacity: 0, transform: 'scaleX(2.5) scaleY(1.5)', transformOrigin: '0 0', paddingRight: '5rem' },
   visible: {
     opacity: 1,
-    transform: 'scaleX(2.5) scaleY(1.5)', 
+    transform: 'scaleX(2.5) scaleY(1.5)',
     transition: { duration: 0.5 },
   },
 };
 
 const SectionFour = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref)
-
 
   return (
     <div className='turning--wrapper'>

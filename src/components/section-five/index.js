@@ -11,7 +11,7 @@ import './style.sectionFive.css';
 
 const SectionFive = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref)
+  
 
 
   return (

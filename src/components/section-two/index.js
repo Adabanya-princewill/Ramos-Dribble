@@ -10,7 +10,6 @@ import { motion, useInView } from 'framer-motion';
 
 const SectionTwo = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref)
 
   return (
     <div className='section--wrapper'>
