@@ -1,0 +1,82 @@
+.turning--wrapper {
+    background-color: #f9f9f9;
+    border-radius: 5rem;
+    padding: 5rem 2rem 0;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.turning--section {
+    background-color: #f9f9f9;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+
+.scaled-image {
+    transform: scaleX(2.5) scaleY(1.5);
+    transform-origin: 0 0;
+    padding-right: 5rem;
+    z-index: 1;
+}
+
+.pos-image {
+    transform: scaleX(1.3) scaleY(1.4);
+    transform-origin: 0 0;
+    position: relative;
+    right: 600px;
+    top: 180px;
+    z-index: 2;
+}
+
+.turn-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.insight--section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    margin: 0;
+    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+.plus--icon {
+    background-color: #f0f0f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50%;
+}
+
+.ramos--text {
+    color: #fe4a23;
+    background-image: repeating-linear-gradient(0deg, rgba(220, 222, 226, 0.29) 0px, rgba(220, 222, 226, 0.29) 1px, transparent 1px, transparent 31px), repeating-linear-gradient(90deg, rgba(220, 222, 226, 0.29) 0px, rgba(220, 222, 226, 0.29) 1px, transparent 1px, transparent 31px), linear-gradient(90deg, rgb(249, 249, 249), rgb(249, 249, 249));
+    font-size: 16rem;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    padding: 10rem 0 4rem 0;
+    transform: scaleX(1.55) scaleY(1.3);
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .pos-image {
+        right: 750px;
+        top: 250px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper--section {
+        max-width: 1440px;
+        margin: 1rem auto;
+    }
+}

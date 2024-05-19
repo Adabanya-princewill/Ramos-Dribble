@@ -1,0 +1,38 @@
+.container {
+    margin: 1rem 1rem 0 1rem;
+    display: flex;
+    background-color: #0d0d0d;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        margin: 1rem auto;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.header--menu {
+    background-color: #252525;
+    color: #c2c2c2;
+    display: flex;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    gap: 2rem;
+    font-size: small;
+}
+
+.header--btn {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: small;
+}

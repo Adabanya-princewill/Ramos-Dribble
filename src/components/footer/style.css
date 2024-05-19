@@ -1,0 +1,82 @@
+.footer--container {
+    color: white;
+    background-color: #0d0d0d;
+    padding: 2rem;
+}
+
+ @media (min-width: 1440px) {
+        .wrapper {
+            max-width: 1440px;
+            margin: 1rem auto;
+        }
+    }
+
+.section--menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2c2c2c;
+    padding: 2rem 0;
+}
+
+.footer--menu {
+    display: flex;
+    gap: 1.5rem;
+    color: #c2c2c2;
+
+}
+
+.menu--email {
+    font-size: 3rem;
+}
+
+.footer--social--wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footer--address {
+    display: flex;
+    gap: 5rem;
+    color: #fff;
+}
+
+.footer-address--desc {
+    color: #c2c2c2;
+}
+
+.footer--socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    color: #c2c2c2;
+}
+
+.footer--bottom--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+    color: #c2c2c2;
+}
+
+.footer--trademark {
+    color: #fff;
+    font-size: 6rem;
+}
+
+.footer--sub {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.qr--code {
+    width: 50px;
+    height: auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}

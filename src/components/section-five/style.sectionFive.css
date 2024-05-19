@@ -1,0 +1,220 @@
+.control--text {
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 8rem;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+.avaterone {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1rem;
+}
+.num--per {
+    padding: 1rem;
+    background-color: #ffd027;
+    border-radius: 1rem;
+    font-size: 5rem;
+}
+
+.num--k {
+    font-size: 3rem;
+    margin: 0;
+}
+hr {
+    height: 5px;
+    width: 100%;
+    background-color: #38c379;
+    border: none;
+    border-radius: 1rem;
+    margin: 0;
+}
+.box {
+    background-color: #fff;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+.boxTwo {
+    background-color: #fff;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 1rem;
+    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+    border-radius: 1rem;
+    position: relative;
+    right: 20px;
+    top: 50px;
+}
+
+.section--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.avatar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.engage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-grp {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.conversion {
+    font-weight: 500;
+    padding: 2rem 0;
+}
+/* .sales {
+    font-size: 1rem;
+} */
+
+.icon {
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    bottom: 130px;
+    box-shadow: 0 0 10px #f2f2f2;
+  }
+
+.bg {
+   width: 100%;
+   height: 550px;
+   padding: 2rem;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 2rem;
+   filter: drop-shadow(0 10px 10px rgb(0 0 0 / 0.15));
+   background-image: repeating-linear-gradient(0deg, rgba(220,222,226, 0.29) 0px, rgba(220,222,226, 0.29) 1px,transparent 1px, transparent 31px),repeating-linear-gradient(90deg, rgba(220,222,226, 0.29) 0px, rgba(220,222,226, 0.29) 1px,transparent 1px, transparent 31px),linear-gradient(90deg, rgb(249,249,249),rgb(249,249,249));
+}
+
+.chart--image {
+    width: 250px;
+}
+
+.text--container {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 5rem 0 1rem;
+}
+
+.text--contain {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.text--header {
+    font-size: x-large;
+    margin: 0;
+}
+.info {
+    font-size: medium;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.card--insight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.total--container {
+    display: flex;
+    flex-direction: column;
+}
+.data {
+    margin-top: 0.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+    background-color: #ffd027;
+    width: max-content;
+}
+
+.bg--bg {
+    background-color: #fff;
+    display: flex;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    overflow: hidden;
+    position: relative;
+    bottom: 90px;
+    border: 1px solid #e6e6e6;
+    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+.first--div {
+    background-color: #fdfdfd;
+    width: 62%;
+    height: 100px;
+    border-radius: 1rem;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    top: 40px;
+}
+.second--div {
+    background-color: #fdfdfd;
+    width: 68%;
+    display: flex;
+    gap: 0.5rem;
+    height: 100px;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 20px;
+    padding: 0.5rem;
+    margin: 0;
+    border: 1px solid #e6e6e6;
+}
+
+.top--icon {
+    background-color: #e6e6e6;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    height: max-content;
+}
+
+@media (max-width: 1024px) {
+    .first--div {
+        width: 80%;
+    }
+    .second--div {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}

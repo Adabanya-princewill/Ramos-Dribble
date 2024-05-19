@@ -1,0 +1,115 @@
+@media (min-width: 1440px) {
+    .wrapper {
+        max-width: 1440px;
+        margin: 1rem auto;
+    }
+}
+
+.wrapper {
+    padding: 2rem;
+}
+
+.main--text {
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.analytics--text-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 30%;
+    position: relative;
+    background-color: #ffd027;
+    border-radius: 2rem;
+    padding: 0.4rem 0;
+    margin-left: auto;
+}
+
+.analytics--text {
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.eff--text {
+    color: #cbcbcb;
+}
+
+.per--number {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.image-icon {
+    width: 50px;
+    height: auto;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 3rem;
+}
+
+.cir--two {
+    background-color: #ffd027;
+    border-radius: 50%;
+    width: 100px;
+    padding: 1rem;
+    height: 100px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+
+.cir--one {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width: 100px;
+    padding: 1rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.per-text {
+    font-size: small;
+    text-align: center;
+}
+
+.demos--btn {
+    color: black;
+    background-color: #f2f2f2;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+.freee--btn {
+    background-color: #fe4a23;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.btns {
+    display: flex;
+}
+
+.bottom--section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #c2c2c2;
+}
