@@ -71,7 +71,7 @@ const SectionOne = () => {
               <PiShareNetwork className='share--icon' size='25px' color="#fff" />
             </motion.span>
             Analytics <br />
-            <span style={{ paddingRight: '4rem' }}>that <span style={{ color: '#cccccc' }}>helps</span> you</span>
+            <span style={{ paddingRight: '2rem' }}>that <span style={{ color: '#cccccc' }}>helps</span> you</span>
           </p>
         </motion.div>
         <motion.div
@@ -90,7 +90,7 @@ const SectionOne = () => {
         transition={{ duration: 0.5 }}
       >
         <p className='shape-text'>
-          shape <span><MdOutlineSort color="black" size='25px' className='network--icon' /></span> the future
+          shape <MdOutlineSort color="black" size='25px' className='network--icon' /> the future
         </p>
       </motion.div>
     </div>
