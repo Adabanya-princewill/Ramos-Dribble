@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import './style.css';
 import ipadImage from '../../assets/ipad.png';
 import iphoneImage from '../../assets/phone.png';
@@ -39,7 +39,6 @@ const ipadImageAnimation = {
 };
 
 const SectionFour = () => {
-  const ref = useRef(null)
 
   return (
     <div className='turning--wrapper'>

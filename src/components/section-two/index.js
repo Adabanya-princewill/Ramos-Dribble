@@ -6,7 +6,7 @@ import chartBar from '../../assets/chartbar.png'
 import avaone from '../../assets/avaone.png'
 import avatwo from '../../assets/avatwo.png'
 import Rounded from '../rounded';
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const SectionTwo = () => {
   const ref = useRef(null)
@@ -81,8 +81,8 @@ const SectionTwo = () => {
               <div className='widget--card'>
                 <div><IoLayersOutline color='#ffd027' size='25px' /></div>
                 <div className='ava--container'>
-                  <div><img src={avaone} alt='' className='avaone' /></div>
-                  <div><img src={avatwo} alt='' className='avatwo' /></div>
+                  <div><img src={avaone} alt='avatar' className='avaone' /></div>
+                  <div><img src={avatwo} alt='avatar' className='avatwo' /></div>
                 </div>
               </div>
               <div className='widget--card'>

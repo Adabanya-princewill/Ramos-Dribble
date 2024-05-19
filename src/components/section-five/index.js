@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { FaPlay } from 'react-icons/fa';
 import { IoIosGitNetwork } from 'react-icons/io';
 import { AiOutlinePicture } from 'react-icons/ai';
@@ -11,8 +11,6 @@ import './style.sectionFive.css';
 
 const SectionFive = () => {
   const ref = useRef(null)
-  
-
 
   return (
     <div className='wrapper'>
@@ -46,14 +44,14 @@ const SectionFive = () => {
               <div className='section--conatiner'>
                 <div className='avatar-container'>
                   <div className='avatar-grp'>
-                    <img src={avaone} alt='' className='avaterone' />
+                    <img src={avaone} alt='avatar' className='avaterone' />
                     <p style={{ color: '#e6e6e6' }}>Min. price</p>
                   </div>
                   <span style={{ fontWeight: '500' }}>1,200$</span>
                 </div>
                 <div className='avatar-container'>
                   <div className='avatar-grp'>
-                    <img src={avatwo} alt='' className='avaterone' />
+                    <img src={avatwo} alt='avatar' className='avaterone' />
                     <p style={{ color: '#e6e6e6' }}>Max. price</p>
                   </div>
                   <span style={{ fontWeight: '500' }}>2,300$</span>
@@ -89,7 +87,7 @@ const SectionFive = () => {
                 <div className='data'>Data visualization</div>
               </div>
             </div>
-            <img src={chart} alt='chart image' className='chart--image' />
+            <img src={chart} alt='chart' className='chart--image' />
           </div>
 
           <div className='text--contain'>
